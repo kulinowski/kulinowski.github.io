@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<div>
+    <div id="div1" style="float: left; width: 500px"></div>
+    <div id="div2" style="float: left; width: 500px; margin: 10px">
+        <h1 style="font-family: calibri">Bloxorz</h1>
+        <p style="font-family: calibri">
+            I created my own version of Bloxorz. It was a popular browser game in middle school, and if you're curious to play the original, then I added a link for you below. The aim of the game is to get the block to fall into the square hole at the end of each level. Use the arrow keys or WASD to move the block around the level. If the block falls off an edge, then the level will be restarted.
+        </p>
+        <p><a style="font-family: calibri" target="_blank" href="https://www.coolmathgames.com/0-bloxorz">Coolmath Games</a></p>
+        <p style="font-family: calibri">
+            Level: <span id="level"></span><br/>
+            Moves: <span id="moves"></span>
+        </p>
+        <p style="font-family: calibri">
+            I added buttons to jump between levels in case you don't want to complete each one.
+        </p>
+    </div>
+</div>
+<script type="importmap">
+    {
+        "imports": {
+            "three": "./libs/build/three.module.js"
+        }
+    }
+</script>
+<script src="main.js" type="module" defer></script>
+</body>
+
+</html>
